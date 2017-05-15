@@ -9,7 +9,7 @@
 #import "Target_C.h"
 #import "ModulCContoller.h"
 @implementation Target_C
--(UIViewController *)action_modulC{
+-(UIViewController *)action_modulC:(NSDictionary *)dic{
     return [[ModulCContoller alloc] initWithNibName:@"ModulCContoller" bundle:nil];
 }
 @end

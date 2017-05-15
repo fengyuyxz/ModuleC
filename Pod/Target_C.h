@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface Target_C : NSObject
--(UIViewController *)action_modulC;
+-(UIViewController *)action_modulC:(NSDictionary *)dic;
 @end
