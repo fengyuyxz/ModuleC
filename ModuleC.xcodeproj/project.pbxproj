@@ -11,6 +11,8 @@
 		1C3B55321EC9885E001CCBE8 /* ModulCContoller.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3B552F1EC9885E001CCBE8 /* ModulCContoller.h */; };
 		1C3B55331EC9885E001CCBE8 /* ModulCContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B55301EC9885E001CCBE8 /* ModulCContoller.m */; };
 		1C3B55341EC9885E001CCBE8 /* ModulCContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3B55311EC9885E001CCBE8 /* ModulCContoller.xib */; };
+		1C3B55371EC990F6001CCBE8 /* Tagert_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3B55351EC990F6001CCBE8 /* Tagert_C.h */; };
+		1C3B55381EC990F6001CCBE8 /* Tagert_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3B55361EC990F6001CCBE8 /* Tagert_C.m */; };
 		504F4CED4BF8DEFE28E13340 /* libPods-ModuleC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9286C65EE5AD3796E22F68 /* libPods-ModuleC.a */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,8 @@
 		1C3B552F1EC9885E001CCBE8 /* ModulCContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModulCContoller.h; sourceTree = "<group>"; };
 		1C3B55301EC9885E001CCBE8 /* ModulCContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModulCContoller.m; sourceTree = "<group>"; };
 		1C3B55311EC9885E001CCBE8 /* ModulCContoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModulCContoller.xib; sourceTree = "<group>"; };
+		1C3B55351EC990F6001CCBE8 /* Tagert_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tagert_C.h; sourceTree = "<group>"; };
+		1C3B55361EC990F6001CCBE8 /* Tagert_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tagert_C.m; sourceTree = "<group>"; };
 		7B9286C65EE5AD3796E22F68 /* libPods-ModuleC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8CCEE5490C4AE6A6E6F81E /* Pods-ModuleC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModuleC/Pods-ModuleC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 				1C3B552F1EC9885E001CCBE8 /* ModulCContoller.h */,
 				1C3B55301EC9885E001CCBE8 /* ModulCContoller.m */,
 				1C3B55311EC9885E001CCBE8 /* ModulCContoller.xib */,
+				1C3B55351EC990F6001CCBE8 /* Tagert_C.h */,
+				1C3B55361EC990F6001CCBE8 /* Tagert_C.m */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -100,6 +106,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3B55371EC990F6001CCBE8 /* Tagert_C.h in Headers */,
 				1C3B55281EC987F0001CCBE8 /* ModuleC.h in Headers */,
 				1C3B55321EC9885E001CCBE8 /* ModulCContoller.h in Headers */,
 			);
@@ -209,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C3B55381EC990F6001CCBE8 /* Tagert_C.m in Sources */,
 				1C3B55331EC9885E001CCBE8 /* ModulCContoller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +377,7 @@
 				1C3B552D1EC987F0001CCBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
