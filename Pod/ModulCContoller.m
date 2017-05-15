@@ -7,7 +7,7 @@
 //
 
 #import "ModulCContoller.h"
-#import <JJMediator+BusinessA.h>
+#import <JJBusnisAMediatro/JJMediator+BusinessA.h>
 @interface ModulCContoller ()
 @property (weak, nonatomic) IBOutlet UILabel *infoLabel;
 
