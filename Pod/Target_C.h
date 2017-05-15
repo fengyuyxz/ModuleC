@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface Tagert_C : NSObject
+@interface Target_C : NSObject
 -(UIViewController *)action_modulC;
 @end
